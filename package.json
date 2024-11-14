@@ -1,0 +1,23 @@
+{
+  "name": "lighthouse-batch-analyzer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "analyze": "node server/lighthouse.js"
+  },
+  "dependencies": {
+    "vue": "^3.4.38",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "lighthouse": "^12.2.1",
+    "chrome-launcher": "^1.1.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.3",
+    "vite": "^5.4.2"
+  }
+}
